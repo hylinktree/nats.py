@@ -7,9 +7,9 @@ from nats.aio.errors import ErrTimeout
 
 DEFAULT_FLUSH_TIMEOUT = 30
 DEFAULT_NUM_MSGS = 100000
-DEFAULT_MSG_SIZE = 16
+DEFAULT_MSG_SIZE = 32
 DEFAULT_BATCH_SIZE = 100
-HASH_MODULO = 1000
+HASH_MODULO = 100000
 
 def show_usage():
     message = """
